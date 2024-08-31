@@ -55,6 +55,12 @@ function WindowGraphics() {
     "../images/WindowGraphics/WGImg30.jpg",
     "../images/WindowGraphics/WGImg31.jpg",
     "../images/WindowGraphics/WGImg99.jpg",
+    "../images/WindowGraphics/WGImg40.jpg",
+    "../images/WindowGraphics/WGImg41.jpg",
+    "../images/WindowGraphics/WGImg42.jpg",
+    "../images/WindowGraphics/WGImg43.jpg",
+    "../images/WindowGraphics/WGImg45.jpg",
+    "../images/WindowGraphics/WGImg46.jpg",
   ];
 
   return (

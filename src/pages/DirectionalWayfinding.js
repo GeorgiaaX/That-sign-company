@@ -54,6 +54,12 @@ function DirectionalWayfinding() {
     "../images/DirectionalWayfinding/DWImg15.jpg",
     "../images/DirectionalWayfinding/DWImg23.jpg",
     "../images/DirectionalWayfinding/DWImg99.jpg",
+    "../images/DirectionalWayfinding/DWImg40.jpg",
+    "../images/DirectionalWayfinding/DWImg41.jpg",
+    "../images/DirectionalWayfinding/DWImg42.jpg",
+    "../images/DirectionalWayfinding/DWImg43.jpg",
+    "../images/DirectionalWayfinding/DWImg44.jpg",
+    "../images/DirectionalWayfinding/DWImg45.jpg",
   ];
 
   return (

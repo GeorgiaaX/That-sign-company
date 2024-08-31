@@ -51,6 +51,9 @@ function StructuralSignage() {
     "../images/StructuralSignage/SSImg16.jpg",
     "../images/StructuralSignage/SSImg17.jpg",
     "../images/StructuralSignage/SSImg24.jpg",
+    "../images/StructuralSignage/SSImg40.jpg",
+    "../images/StructuralSignage/SSImg41.jpg",
+    "../images/StructuralSignage/SSImg42.jpg",
   ];
 
   return (

@@ -47,6 +47,15 @@ function VehicleBranding() {
     "../images/VehicleBranding/VFImg14.jpg",
     "../images/VehicleBranding/VFImg3.jpg",
     "../images/VehicleBranding/VFImg9.jpg",
+    "../images/VehicleBranding/VFImg40.jpg",
+    "../images/VehicleBranding/VFImg41.jpg",
+    "../images/VehicleBranding/VFImg42.jpg",
+    "../images/VehicleBranding/VFImg43.jpg",
+    "../images/VehicleBranding/VFImg44.jpg",
+    "../images/VehicleBranding/VFImg45.jpg",
+    "../images/VehicleBranding/VFImg46.jpg",
+    "../images/VehicleBranding/VFImg47.jpg",
+    "../images/VehicleBranding/VFImg48.jpg",
   ];
 
   return (

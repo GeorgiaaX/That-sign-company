@@ -52,6 +52,10 @@ function IlluminatedDesigns() {
     "../images/IlluminatedDesigns/IDImg6.jpg",
     "../images/IlluminatedDesigns/IDImg22.jpg",
     "../images/IlluminatedDesigns/IDImg14.jpg",
+    "../images/IlluminatedDesigns/IDImg31.jpg",
+    "../images/IlluminatedDesigns/IDImg32.jpg",
+    "../images/IlluminatedDesigns/IDImg33.jpg",
+    "../images/IlluminatedDesigns/IDImg34.jpg",
   ];
 
   return (

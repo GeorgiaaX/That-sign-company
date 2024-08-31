@@ -44,6 +44,11 @@ function ReceptionInterior() {
     "../images/ReceptionInterior/RIImg11.jpg",
     "../images/ReceptionInterior/RIImg12.jpg",
     "../images/ReceptionInterior/RIImg13.jpg",
+    "../images/ReceptionInterior/RIImg40.jpg",
+    "../images/ReceptionInterior/RIImg41.jpg",
+    "../images/ReceptionInterior/RIImg42.jpg",
+    "../images/ReceptionInterior/RIImg43.jpg",
+    "../images/ReceptionInterior/RIImg44.jpg",
   ];
 
   return (

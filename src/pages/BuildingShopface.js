@@ -48,6 +48,13 @@ function BuildingShopface() {
     "../images/BuildingShopface/BSImg99.jpg",
     "../images/BuildingShopface/BSImg98.jpg",
     "../images/BuildingShopface/BSImg97.jpg",
+    "../images/BuildingShopface/BSImg40.jpg",
+    "../images/BuildingShopface/BSImg41.jpg",
+    "../images/BuildingShopface/BSImg42.jpg",
+    "../images/BuildingShopface/BSImg43.jpg",
+    "../images/BuildingShopface/BSImg44.jpg",
+    "../images/BuildingShopface/BSImg45.jpg",
+    "../images/BuildingShopface/BSImg46.jpg",
   ];
 
   return (
