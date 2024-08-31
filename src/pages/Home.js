@@ -9,7 +9,7 @@ import About from "../components/About";
 
 export default function Home() {
   useEffect(() => {
-    document.title = "Sunshine Coast Signs by That Sign Company";
+    document.title = "That Sign Company | Signs Sunshine Coast | Signage Sunshine Coast";
     document
       .querySelector('meta[name="description"]')
       .setAttribute(

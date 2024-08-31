@@ -11,7 +11,7 @@ const ContactForm = React.forwardRef((props, ref) => {
         method="POST"
       >
         <h3 className="text-center">Send us a message</h3>
-        {/* honeyPOt */}
+        {/* honeyPot */}
         <input type="text" name="_honey" style={{ display: "none" }} />
         {/* Disable captcha */}
         <input type="hidden" name="_captcha" value="false" />
