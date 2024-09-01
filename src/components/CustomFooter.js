@@ -28,13 +28,13 @@ function CustomFooter() {
         <div>
           <Nav className="align-items-center brand-icons">
             <Nav.Link
-              href="https://www.facebook.com/profile.php?id=61552948455040"
+              href="https://www.facebook.com/people/That-Sign-Company/61564335286425/"
               className="text-white me-4"
               target="_blank"
             >
               <FontAwesomeIcon icon={faFacebookF} size="2x" />
             </Nav.Link>
-            <Nav.Link
+            {/* <Nav.Link
               href="https://www.instagram.com/thatsigncompany/"
               className="text-white me-4"
               target="_blank"
@@ -47,7 +47,7 @@ function CustomFooter() {
               target="_blank"
             >
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
-            </Nav.Link>
+            </Nav.Link> */}
           </Nav>
         </div>
       </section>
