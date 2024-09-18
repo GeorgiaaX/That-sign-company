@@ -34,8 +34,8 @@ function CustomFooter() {
             >
               <FontAwesomeIcon icon={faFacebookF} size="2x" />
             </Nav.Link>
-            {/* <Nav.Link
-              href="https://www.instagram.com/thatsigncompany/"
+            <Nav.Link
+              href="https://www.instagram.com/thatsigncompany?igsh=eHprNTF4aGllMGs0"
               className="text-white me-4"
               target="_blank"
             >
@@ -47,7 +47,7 @@ function CustomFooter() {
               target="_blank"
             >
               <FontAwesomeIcon icon={faLinkedin} size="2x" />
-            </Nav.Link> */}
+            </Nav.Link>
           </Nav>
         </div>
       </section>

@@ -20,9 +20,9 @@ function BuildingShopface() {
   }, []);
 
   const imageUrls = [
-    "../images/BuildingShopface/BSImg1.jpg",
+    "../images/BuildingShopface/BSImg45.jpg",
     "../images/BuildingShopface/BSImg98.jpg",
-    "../images/BuildingShopface/BSImg15.jpg",
+    "../images/BuildingShopface/BSImg46.jpg",
     "../images/BuildingShopface/BSImg21.jpg",
     "../images/BuildingShopface/BSImg22.jpg",
     "../images/BuildingShopface/BSImg7.jpg",
@@ -32,18 +32,12 @@ function BuildingShopface() {
   ];
 
   const galleryUrls = [
-    "../images/BuildingShopface/BSImg1.jpg",
-    "../images/BuildingShopface/BSImg13.jpg",
-    "../images/BuildingShopface/BSImg15.jpg",
     "../images/BuildingShopface/BSImg7.jpg",
     "../images/BuildingShopface/BSImg9.jpg",
     "../images/BuildingShopface/BSImg10.jpg",
     "../images/BuildingShopface/BSImg21.jpg",
     "../images/BuildingShopface/BSImg22.jpg",
     "../images/BuildingShopface/BSImg23.jpg",
-    "../images/BuildingShopface/BSImg24.jpg",
-    "../images/BuildingShopface/BSImg26.jpg",
-    "../images/BuildingShopface/BSImg28.jpg",
     "../images/BuildingShopface/BSImg30.jpg",
     "../images/BuildingShopface/BSImg99.jpg",
     "../images/BuildingShopface/BSImg98.jpg",

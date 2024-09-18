@@ -22,12 +22,12 @@ function VehicleBranding() {
   //gallerySlide Urls
   const imageUrls = [
     "../images/VehicleBranding/VFImg12.jpg",
-    "../images/VehicleBranding/VFImg4.jpg",
+    "../images/VehicleBranding/VFImg44.jpg",
     "../images/VehicleBranding/VFImg3.jpg",
     "../images/VehicleBranding/VFImg9.jpg",
-    "../images/VehicleBranding/VFImg16.jpg",
+    "../images/VehicleBranding/VFImg46.jpg",
     "../images/VehicleBranding/VFImg2.jpg",
-    "../images/VehicleBranding/VFImg5.jpg",
+    "../images/VehicleBranding/VFImg45.jpg",
     "../images/VehicleBranding/VFImg13.jpg",
     "../images/VehicleBranding/VFImg14.jpg",
     "../images/VehicleBranding/VFImg11.jpg",
@@ -37,12 +37,8 @@ function VehicleBranding() {
   const galleryUrls = [
     "../images/VehicleBranding/VFImg2.jpg",
     "../images/VehicleBranding/VFImg12.jpg",
-    "../images/VehicleBranding/VFImg5.jpg",
-    "../images/VehicleBranding/VFImg15.jpg",
-    "../images/VehicleBranding/VFImg16.jpg",
     "../images/VehicleBranding/VFImg10.jpg",
     "../images/VehicleBranding/VFImg11.jpg",
-    "../images/VehicleBranding/VFImg4.jpg",
     "../images/VehicleBranding/VFImg13.jpg",
     "../images/VehicleBranding/VFImg14.jpg",
     "../images/VehicleBranding/VFImg3.jpg",
