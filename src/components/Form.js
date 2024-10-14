@@ -7,7 +7,7 @@ const ContactForm = React.forwardRef((props, ref) => {
       <Form
         name="contact"
         className="contact-form"
-        action="https://formsubmit.co/georgiaa.dev@gmail.com"
+        action="https://formsubmit.co/georgiaa.devv@gmail.com"
         method="POST"
       >
         <h3 className="text-center">Send us a message</h3>
