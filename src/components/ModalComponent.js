@@ -14,7 +14,7 @@ export default function ModalComponent({ show, onHide }) {
         <Modal.Body className="modal-background">
           <Form
             name="contact"
-            action="https://formsubmit.co/jake@thatsigncompany.com.au"
+            action="https://formsubmit.co/gsim17@hotmail.com"
             method="POST"
           >
             {/* HoneyPot captcha */}
