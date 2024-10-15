@@ -18,6 +18,7 @@ export default function ModalComponent({ show, onHide }) {
             data-netlify="true"
             data-netlify-honeypot="bot-field"
             action="/success" // Redirect URL
+            netlify
           >
             <input type="hidden" name="form-name" value="contact" />
             {/* Netlify honeypot field to prevent spam submissions */}
