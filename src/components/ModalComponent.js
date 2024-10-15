@@ -12,65 +12,66 @@ export default function ModalComponent({ show, onHide }) {
           </Button>
         </Modal.Header>
         <Modal.Body className="modal-background">
-        <Form
-  name="contact"
-  method="POST"
-  data-netlify="true"
->
-  <input type="hidden" name="form-name" value="contact" />
-  <Form.Group className="mb-3">
-    <Form.Label>Name</Form.Label>
-    <Form.Control
-      type="text"
-      placeholder="Name"
-      autoFocus
-      className="border-primary"
-      name="name"
-      required
-    />
-  </Form.Group>
-  <Form.Group className="mb-3">
-    <Form.Label className="contact-form-label">
-      Phone Number
-    </Form.Label>
-    <Form.Control
-      type="tel"
-      placeholder="Phone Number"
-      name="phone number"
-      required
-    />
-  </Form.Group>
-  <Form.Group className="mb-3">
-    <Form.Label>Email address</Form.Label>
-    <Form.Control
-      type="email"
-      placeholder="Enter email"
-      className="border-info"
-      name="email"
-      required
-    />
-  </Form.Group>
-  <Form.Group className="mb-3">
-    <Form.Label>Message</Form.Label>
-    <Form.Control
-      as="textarea"
-      rows="3"
-      placeholder="Tell us what you need!"
-      className="border-success"
-      name="message"
-      required
-    />
-  </Form.Group>
-  <Modal.Footer className="modal-footer">
-    <Button variant="outline-secondary" onClick={onHide}>
-      Close
-    </Button>
-    <Button variant="primary" type="submit">
-      Get a Quote
-    </Button>
-  </Modal.Footer>
-</Form>
-
+          <Form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            action="/success" // Redirect URL
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            {/* Netlify honeypot field to prevent spam submissions */}
+            <input type="hidden" name="bot-field" />
+            <Form.Group className="mb-3">
+              <Form.Label>Name</Form.Label>
+              <Form.Control
+                type="text"
+                placeholder="Name"
+                autoFocus
+                className="border-primary"
+                name="name"
+                required
+              />
+            </Form.Group>
+            <Form.Group className="mb-3">
+              <Form.Label>Phone Number</Form.Label>
+              <Form.Control
+                type="tel"
+                placeholder="Phone Number"
+                name="phone number"
+                required
+              />
+            </Form.Group>
+            <Form.Group className="mb-3">
+              <Form.Label>Email address</Form.Label>
+              <Form.Control
+                type="email"
+                placeholder="Enter email"
+                className="border-info"
+                name="email"
+                required
+              />
+            </Form.Group>
+            <Form.Group className="mb-3">
+              <Form.Label>Message</Form.Label>
+              <Form.Control
+                as="textarea"
+                rows="3"
+                placeholder="Tell us what you need!"
+                className="border-success"
+                name="message"
+                required
+              />
+            </Form.Group>
+            <Modal.Footer className="modal-footer">
+              <Button variant="outline-secondary" onClick={onHide}>
+                Close
+              </Button>
+              <Button variant="primary" type="submit">
+                Get a Quote
+              </Button>
+            </Modal.Footer>
+          </Form>
         </Modal.Body>
       </div>
     </Modal>
