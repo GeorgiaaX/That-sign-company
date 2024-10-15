@@ -13,16 +13,11 @@ export default function ModalComponent({ show, onHide }) {
         </Modal.Header>
         <Modal.Body className="modal-background">
           <Form
-            name="contact"
+            action="https://formspree.io/f/mvojyqvp" // Your Formspree form ID
             method="POST"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-            action="/success" // Redirect URL
-            netlify
           >
-            <input type="hidden" name="form-name" value="contact" />
-            {/* Netlify honeypot field to prevent spam submissions */}
-            <input type="hidden" name="bot-field" />
+            <input type="hidden" name="_next" value="/success" /> {/* Redirect after submission */}
+            <input type="hidden" name="_subject" value="New Quote Request" /> {/* Subject of the email */}
             <Form.Group className="mb-3">
               <Form.Label>Name</Form.Label>
               <Form.Control
