@@ -77,6 +77,8 @@
 // export default ContactForm;
 
 
+
+
 import React from "react";
 import { Form, Button } from "react-bootstrap";
 
@@ -87,7 +89,8 @@ const ContactForm = React.forwardRef((props, ref) => {
         name="contact" // Name your form
         className="contact-form"
         method="POST"
-        data-netlify="true" // Enable Netlify Forms processing
+        data-netlify="true" 
+        netlify // Enable Netlify Forms processing
       >
         <h3 className="text-center">Send us a message</h3>
 
@@ -153,4 +156,3 @@ const ContactForm = React.forwardRef((props, ref) => {
 });
 
 export default ContactForm;
-
